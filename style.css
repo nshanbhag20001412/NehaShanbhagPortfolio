@@ -80,7 +80,8 @@ hr {
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
+    font-weight:lighter;
+    
 }
 
 .navigation .nav-pills {
@@ -88,11 +89,12 @@ hr {
 }
 
 .navigation .link {
-    color: white;
+    color:whitesmoke;
+    font-weight:lighter;
 }
 
 .navigation .link-active {
-    font-weight: bold;
+    font-weight:bold;
 }
 
 /** header **/
