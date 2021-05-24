@@ -4,8 +4,9 @@
 
 :root {
     --primary-color: #00adb5;
-    --off-white: #F3F4F6;
-    --dark-gray: #6B7280;
+    --light-green:#e6f7f8;
+    --dark-gray: #374151;
+    --light-grey:#6B7280;
 }
 body{
     font-family: 'Oswald', sans-serif; 
@@ -15,6 +16,14 @@ body{
 
 hr {
     margin: 2rem 0rem;
+}
+
+h1{
+    color: var(--dark-gray);
+}
+
+p{
+    color:var(--light-grey)
 }
 
 /** spaces **/
@@ -28,10 +37,10 @@ hr {
     padding: 0rem 1rem;
 }
 
-.container-center {
+/* .container-center {
     max-width: 600px;
     margin: auto;
-}
+} */
 
 /** links **/
 .link {
@@ -99,17 +108,18 @@ hr {
 
 /** header **/
 
-.hero {
+/* .hero {
    
     padding-top: 3rem;
 
-}
+} */
 
 .hero .hero-img {
     max-width: 80%;
     width: 350px;
-    display: block;
+    display: flex;
     margin: auto;
+    align-content: flex-end;
 }
 
 .hero .hero-heading {
@@ -121,6 +131,14 @@ hr {
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
+
+.container-hero{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+    padding: 2rem;
+
 
 /** sections **/
 
@@ -134,7 +152,7 @@ hr {
 }
 
 .ow {
-    background-color: var(--off-white);
+    background-color: var(--light-green);
 }
 
 /** footers **/
