@@ -1,29 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-/* font-family: 'Oswald', sans-serif; */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #00adb5;
-    --light-green:#e6f7f8;
-    --dark-gray: #374151;
-    --light-grey:#6B7280;
+    --primary-color: #7C3AED;
+    --off-white: #F3F4F6;
+    --dark-gray: #6B7280;
 }
-body{
-    font-family: 'Oswald', sans-serif; 
+
+body {
+    font-family: 'Montserrat', sans-serif;
     margin: 0px
 }
 
-
 hr {
     margin: 2rem 0rem;
-}
-
-h1{
-    color: var(--dark-gray);
-}
-
-p{
-    color:var(--light-grey)
 }
 
 /** spaces **/
@@ -37,10 +26,10 @@ p{
     padding: 0rem 1rem;
 }
 
-/* .container-center {
+.container-center {
     max-width: 600px;
     margin: auto;
-} */
+}
 
 /** links **/
 .link {
@@ -67,6 +56,8 @@ p{
     margin: 1rem 1rem 1rem 0rem;
 }
 
+/** look into BEM naming convention for CSS **/
+
 /** lists **/
 
 .list-non-bullet {
@@ -89,8 +80,7 @@ p{
 }
 
 .navigation .nav-brand {
-    font-weight:lighter;
-    
+    font-weight: bold;
 }
 
 .navigation .nav-pills {
@@ -98,28 +88,26 @@ p{
 }
 
 .navigation .link {
-    color:whitesmoke;
-    font-weight:lighter;
+    color: white;
 }
 
 .navigation .link-active {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 /** header **/
 
-/* .hero {
-   
-    padding-top: 3rem;
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
 
-} */
+}
 
 .hero .hero-img {
     max-width: 80%;
     width: 350px;
-    display: flex;
+    display: block;
     margin: auto;
-    align-content: flex-end;
 }
 
 .hero .hero-heading {
@@ -131,14 +119,6 @@ p{
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
-
-.container-hero{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items:flex-start;
-    padding: 2rem;
-
 
 /** sections **/
 
@@ -152,7 +132,7 @@ p{
 }
 
 .ow {
-    background-color: var(--light-green);
+    background-color: var(--off-white);
 }
 
 /** footers **/
@@ -187,4 +167,3 @@ p{
 .showcase-blog {
     padding-bottom: 6rem;
 }
-© 2021 GitHub, Inc.
