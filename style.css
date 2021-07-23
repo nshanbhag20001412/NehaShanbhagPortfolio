@@ -126,9 +126,9 @@ hr{
 }
 
 .section-lightgray{
-    /* background-color: var(--light-gray); */
-    background-image: url(Images/herobackground.jpg);
-    background-size: cover;
+    background-color: #111924;
+    /* background-image: url(Images/herobackground.jpg);
+    background-size: cover; */
     color: white;
     /* text-shadow: 1px 1px var(--light-gray); */
     filter: contrast(130%);
