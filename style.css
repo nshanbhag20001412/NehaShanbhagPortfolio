@@ -126,10 +126,10 @@ hr{
 }
 
 .section-lightgray{
-    /* background-color: #111924; */
-     background-image: url(Images/herobackground.jpg);
+    background-color: #111924;
+     /* background-image: url(Images/herobackground.jpg);
     background-size: cover; 
-    background-position: center;
+    background-position: center; */
     color: white;
     /* text-shadow: 1px 1px var(--light-gray); */
     filter: contrast(130%);
