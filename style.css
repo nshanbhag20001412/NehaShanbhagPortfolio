@@ -6,8 +6,7 @@ rem means varies insync with root font */
 :root{
     --primary-color:#0f1724;
     --text-color:#374151;
-    --light-gray:#1F2937
-    ; /*background*/
+    --light-gray:#1F2937 ; /*background*/
 }
 body{
     font-family: 'Roboto', sans-serif;   
@@ -26,7 +25,7 @@ hr{
 .container-center {
     max-width: 600px;
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -129,18 +128,20 @@ hr{
 
 .section-lightgray{
     background-color: var(--primary-color);
-     /* background-image: url(Images/herobackground.jpg);
-    background-size: cover; 
-    background-position: center; */
     color: white;
-    /* text-shadow: 1px 1px var(--light-gray); */
-    filter: contrast(130%);
+   
     
 }
 
+.mail{
+    text-align: center;
+    padding-inline-start: 0px;
+}
 .link-mail{
-   font-size: 0.5rem;
-   color: black;
+   font-size:1rem;
+   font-weight: 900;
+   color: var(--primary-color);
+   padding:0px;
 }
 .footer{
     background-image: url(Images/herobackground.jpg);
