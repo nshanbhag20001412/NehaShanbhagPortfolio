@@ -6,7 +6,7 @@ rem means varies insync with root font */
 :root{
     --primary-color:#0f1724;
     --text-color:#374151;
-    --light-gray:#F3F4F6; /*background*/
+    --light-gray:#e7e8e9; /*background*/
 }
 body{
     font-family: 'Roboto', sans-serif;   
@@ -25,13 +25,13 @@ hr{
 .container-center {
     max-width: 600px;
     margin: auto;
-    text-align: left;
+    text-align: center;
 }
 
 
 /* links */
 .link{
-    padding:0.5rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 0;
     text-decoration: none;
     color:white;
 }
@@ -45,14 +45,20 @@ hr{
     border-radius:0.5rem;
     color:white;
     align-content:flex-start;
+    padding-left:1rem;
     
 }
 
 .secondary-link{
-    color:var(--primary-color);
-    border:1px solid var(--primary-color);
-    border-radius: 0.5rem;
+    background-color: #ffcfcf;
+    border-radius:0.5rem;
+    color:black;
+    align-content:flex-start;
+    padding-left:1rem;
+    font-weight:bold;
 }
+
+
 
 /* lists */
 
@@ -92,37 +98,68 @@ hr{
 }
 .hero-text h1{
     text-align:left;
-    color:var(--text-color)
+    color:var(--text-color);
+    margin-left: 3%;
+    
 }
 
 .hero-text{
     text-align: left;
     vertical-align: auto;
-    padding-right: 4% ;
+    padding-right: 2% ; 
+}
+.hero p{
+    margin-left:3%;
+}
+
+.hero .hero-heading {
+    color: var(--dark-gray);
+    margin-left: 2%;
 }
 
 /* sections */
 
 .section{
     text-align:center;
-    padding:0.5rem 0rem;
+    padding:0.5rem 2rem;
 }
 
 .section-lightgray{
-    background-color: var(--light-gray);
+    /* background-color: var(--light-gray); */
+    background-image: url(Images/herobackground.jpg);
+    background-size: cover;
+    color: white;
+    
     
 }
 
+.link-mail{
+   font-size: 0.5rem;
+   color: black;
+}
 .footer{
     background-image: url(Images/herobackground.jpg);
-    padding:4rem 1rem;
+    padding:2rem 1rem;
     text-align: center;
-    background-size: cover;
+    background-size:cover;
     color: white;
 }
+.footer ul{
+    padding-inline-start: 0px;
+}
 
-.footer h3{
-    padding-left: 3rem;
+
+
+/** projects **/
+.showcase-list {
+
+    text-align: left;
+}
+
+/** blogs **/
+.showcase-blog {
+   
+    text-align: left;
 }
 
 
