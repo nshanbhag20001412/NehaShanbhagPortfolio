@@ -116,6 +116,8 @@ hr{
 .hero .hero-heading {
     color: var(--dark-gray);
     margin-left: 2%;
+    padding-bottom: 0.1%;
+         
 }
 
 /* sections */
@@ -126,7 +128,7 @@ hr{
 }
 
 .section-lightgray{
-    background-color: #111924;
+    background-color: #09111d;
      /* background-image: url(Images/herobackground.jpg);
     background-size: cover; 
     background-position: center; */
