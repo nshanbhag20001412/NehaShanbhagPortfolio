@@ -6,7 +6,8 @@ rem means varies insync with root font */
 :root{
     --primary-color:#0f1724;
     --text-color:#374151;
-    --light-gray:#e7e8e9; /*background*/
+    --light-gray:#1F2937
+    ; /*background*/
 }
 body{
     font-family: 'Roboto', sans-serif;   
@@ -129,7 +130,8 @@ hr{
     background-image: url(Images/herobackground.jpg);
     background-size: cover;
     color: white;
-    
+    /* text-shadow: 1px 1px var(--light-gray); */
+    filter: contrast(130%);
     
 }
 
