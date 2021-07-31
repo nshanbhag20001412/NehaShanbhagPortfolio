@@ -168,7 +168,19 @@ hr{
    
     text-align: left;
 }
+p{
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+}
 
+h1{
+    margin-block-start: 0.8rem;
+    margin-block-end: 0.8rem;
+}
+h5{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
 
 
 
