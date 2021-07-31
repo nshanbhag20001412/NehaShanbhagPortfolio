@@ -28,17 +28,25 @@ hr{
     text-align: left;
 }
 .container-blogpage{
-  
+    width:70%;
     margin: 1rem;
     text-align: left;
+    float:left;
+    
 }
 
 
 /* links */
 .link{
-    padding: 0.5rem 1rem 0.5rem 0;
+    padding: 0.5rem 1rem 0.5rem 0; 
+    color:white;
+    text-decoration: none;
+}
+.link-otherblogs{
+    color:white;
     text-decoration: none;
     color:white;
+    padding:0.5rem 0.5rem 0.5rem 0;
 }
 
 .link-active{
@@ -62,9 +70,6 @@ hr{
     padding-left:1rem;
     font-weight:bold;
 }
-
-
-
 /* lists */
 
 .list-non-bullet{
@@ -96,10 +101,12 @@ hr{
 .hero{
  display:flex;
  margin:1%;
+ text-align: left;
+ vertical-align: auto;
+ padding-right: 2% ; 
 }
 .hero-img{
     max-width: 40%;
-    flex:55%;
 }
 .hero-text h1{
     text-align:left;
@@ -109,9 +116,8 @@ hr{
 }
 
 .hero-text{
-    text-align: left;
-    vertical-align: auto;
-    padding-right: 2% ; 
+    width:60%;
+    float:right;
 }
 .hero p{
     margin-left:3%;
@@ -160,8 +166,6 @@ hr{
     
 }
 
-
-
 /** projects **/
 .showcase-list {
 
@@ -186,6 +190,23 @@ h5{
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
+
+.clearfix
+{
+    clear:both;
+}
+
+.box{
+    width:20%;
+    float:right;
+    background-color: var(--primary-color);
+    color:white;
+    margin:1rem 1rem 0rem 0;
+    border-radius: 0.25rem;
+    padding-bottom: 30rem;
+}
+
+
 
 
 
