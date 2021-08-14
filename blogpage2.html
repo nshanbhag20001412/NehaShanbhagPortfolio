@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NehaShanbhag</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navigation">
+        <a style="color:white; text-decoration: none; "href="index.html">MyPortfolio</a>
+        <ul class="nav-pills">
+            <li class="list-item-inline "><a class="link " href="blog.html">Back</a></li>
+        </ul>
+    </nav>
+    <section class="content-holder">
+        <div class=" container-blogpage"> 
+            <img style="width:100%;padding-bottom: 2%;" src="/Images/formdata.png">
+            <div class="content">
+               <p>
+                 Imagine you are designing a registeration page and there are numerous input fields, buttons and so on. Would you keep on defining reference for each and every field to access the data, no right? Theres a necessity for a shortcut or a command which will make our work easier, here's where <strong>Form Data</strong> comes into picture.
+               </p>
+
+               <p>
+
+                   FormData provides a interface to define and access  these fields disguised as set of key/value pair.The <strong>FormData()</strong>  function  <a class="blogLink"href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor"> (constructor)</a> lets you create a <a class="blogLink"href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor">object</a> of  FormData.
+
+                   <p class="blogCode">
+                     <b>var formData=new FormData(form)</b>&nbsp;&nbsp;<span class="blogComment"> // here form in brackets is the name or the class/id name of the form</span>
+                   </p> 
+               </p>
+
+               <h1>
+                <u>Methods of FormData()</u>
+               </h1>
+               <p>
+                Methods are actions that can be performed on objects.Here are the methods of FormData() :
+                <ul class="list-non-bullet">
+                    <li>
+                        <h2>append()</h2>
+                        <p>
+                          As the name suggest append() adds new value to the existing value of a key or creates a new key and adds the value.
+                          
+                        </p>
+                        
+                        <p class="blogCode">
+                          <b>formData.append( 'username' ,  'John' );</b>&nbsp;&nbsp;<span class="blogComment"> // here 'username' is the <b>key name</b> and 'John' is the <b>value</b> which youll be appending</span>
+                        </p> 
+            
+                    </li>
+
+                    <li>
+                        <h2>delete()</h2>
+                        <p>
+                          Using this youll be able to delete a key and its corresponding value of a object.
+                        </p>
+
+                        <p class="blogCode">
+                            <b>formData.delete(name);</b>&nbsp;&nbsp;<span class="blogComment"> // here 'name' is the <b>key name</b></span>
+                          </p> 
+
+                    </li>
+                    <li>
+                        <h2>entries()</h2>
+                        <p>
+                        This method will return you a array or key-value pair
+                        </p>
+
+                        <p class="blogCode">
+                            <b>formData.entries();</b><br> 
+                        <span class="blogComment"><br>// Eg
+                            We have a form with id name form and input fields as follows<br>
+                            <span><</span>input="text" name="key1" value="value1"> <br>
+                            <span><</span>input="text" name="key2" value="value2"> <br><br>
+                            //Then using formData.entries will give us array
+                            [ key1,value1 ] and [key2,value2]
+                        </span>
+                          </p> 
+
+                    </li>
+                    <li>
+                        <h2>get() and getAll()</h2>
+                        <p>
+                          get() returns the value of the first key(name) while getAll() returns a array of values which the same key(name) 
+                        </p>
+                        <p class="blogCode">
+                            <b>formData.get(name);</b>&nbsp;&nbsp;<span class="blogComment"> // here name is the <b>key name</b> <br></span> <br>
+                            <b>formData.getAll(name);</b>&nbsp;&nbsp;<span class="blogComment"> // here name is the <b>key name</b>, and returns a array for values with name key.
+                        </p> 
+
+                    </li>
+                    <li>
+                        <h2>has()</h2>
+                        <p>
+                            This return a boolean value i.e true/false in response to the present of value.
+                          </p>
+                          <p class="blogCode">
+                              <b>formData.has(name);</b>&nbsp;&nbsp;<span class="blogComment"> // So if the key 'name' is has its corresponding value it returns true else returns false
+                          </p> 
+                    </li>
+                    <li>
+                        <h2>keys()</h2>
+                        <p>
+                          Returns an array of keys (names) under the object.
+                        </p>
+                        <p class="blogCode">
+                              <b>formData.has(name);</b>&nbsp;&nbsp;<span class="blogComment"> // So if the key 'name' is has its corresponding value it returns true else returns false
+                          </p>
+                    </li>
+                    <li>
+                        <h2>values()</h4>
+                        <p>
+                         Returns of array of all values under the object 
+                        </p>
+                        <p class="blogCode">
+                            <b>formData.values();</b>&nbsp;&nbsp;<span class="blogComment"> // Returns array of values.
+                        </p>
+                    </li>
+                </ul>
+              
+            </div>
+        </div>
+        
+
+         <aside class="box">
+            <ul class="blog-list">
+             <li class="link"><a class="link-otherblogs" href="/blogpage1.html"> All about Emmets </a></li>
+             <li class="link"><a class="link-otherblogs" href="#">Lorem ipsum dolor sit amet consec tetur, adipisicing elit. Cupiditate a  </a></li>
+             <li class="link"><a class="link-otherblogs" href="#">Lorem ipsum dolor sit amet consec tetur, adipisicing elit. Cupiditate a  </a></li>
+             <li class="link"><a class="link-otherblogs" href="#">Lorem ipsum dolor sit amet consec tetur, adipisicing elit. Cupiditate a  </a></li>
+             <li class="link"><a class="link-otherblogs" href="#">Lorem ipsum dolor sit amet consec tetur, adipisicing elit. Cupiditate a  </a></li>
+            </ul>  
+        </aside>
+        
+    </section>
+    
+    <footer class="footer">
+        <a class="link " href="https://github.com/nshanbhag20001412">Github</a> </li>
+        <a class="link " href="">Twitter</a> </li>
+        <a class="link " href="https://www.linkedin.com/in/neha-shanbhag-866649175">LinkedIn</a> </li>
+        <a class="link " href="#">Mail</a> </li>
+        <a  class="  link " href="#">Contact</a> </li>
+
+   </footer>
+
+    </body>
+    </html>
+        
+    
