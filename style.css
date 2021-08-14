@@ -48,7 +48,7 @@ hr{
 
 /* links */
 .link{
-    padding: 0.5rem 1rem 0.5rem 0; 
+    padding:0.5rem 1rem; 
     color:white;
     text-decoration: none;
 }
@@ -76,7 +76,7 @@ hr{
     background-color:var(--primary-color);
     border-radius:0.5rem;
     color:white;
-    align-content:flex-start;
+    
     padding-left:1rem;
     
 }
@@ -155,7 +155,7 @@ hr{
 
 .section{
     text-align:center;
-    padding:0.5rem 2rem;
+    padding:0.5rem 0rem;
 }
 
 .section-lightgray{
@@ -187,10 +187,6 @@ hr{
 }
 
 /** projects **/
-.showcase-list {
-
-    text-align: left;
-}
 
 /** blogs **/
 .showcase-blog {
@@ -246,6 +242,7 @@ h5{
 .blogLink{
     color:#0f1724;
 }
+
 
 
 
